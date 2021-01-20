@@ -20,6 +20,8 @@
 		7080C541258C72A00059F868 /* EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080C53D258C72A00059F868 /* EmojiArtView+Gestures.swift */; };
 		7080C542258C72A00059F868 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080C53E258C72A00059F868 /* EmojiCollectionViewCell.swift */; };
 		7080C543258C72A00059F868 /* TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080C53F258C72A00059F868 /* TextFieldCollectionViewCell.swift */; };
+		7096B49C25B7D1EF00521A8E /* browser.png in Resources */ = {isa = PBXBuildFile; fileRef = 7096B49B25B7D1EF00521A8E /* browser.png */; };
+		7096B49F25B7D1F500521A8E /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 7096B49E25B7D1F500521A8E /* document.png */; };
 		70D18F522590780700BEBAF5 /* DocumentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D18F512590780700BEBAF5 /* DocumentInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		7080C53D258C72A00059F868 /* EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
 		7080C53E258C72A00059F868 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 		7080C53F258C72A00059F868 /* TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		7096B49B25B7D1EF00521A8E /* browser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browser.png; sourceTree = "<group>"; };
+		7096B49E25B7D1F500521A8E /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document.png; sourceTree = "<group>"; };
 		70D18F512590780700BEBAF5 /* DocumentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 				7080C51A258C61620059F868 /* AppDelegate.swift */,
 				7080C525258C61660059F868 /* Assets.xcassets */,
 				7080C527258C61660059F868 /* LaunchScreen.storyboard */,
+				7096B49B25B7D1EF00521A8E /* browser.png */,
+				7096B49E25B7D1F500521A8E /* document.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,8 +162,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7096B49F25B7D1F500521A8E /* document.png in Resources */,
 				7080C529258C61660059F868 /* LaunchScreen.storyboard in Resources */,
 				7080C526258C61660059F868 /* Assets.xcassets in Resources */,
+				7096B49C25B7D1EF00521A8E /* browser.png in Resources */,
 				7080C524258C61620059F868 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
